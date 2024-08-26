@@ -1,0 +1,12 @@
+<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Camera Tester" Height="350" Width="400">
+    <Grid>
+        <Button Content="Get All IPs" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" Click="GetAllIPs_Click"/>
+        <Button Content="Test Camera" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="120" Click="TestCamera_Click"/>
+        <TextBox x:Name="txtCameraIP" HorizontalAlignment="Left" Margin="150,60,0,0" VerticalAlignment="Top" Width="200"/>
+        <ListBox x:Name="lstIPs" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Height="200" Width="360"/>
+        <TextBlock x:Name="txtStatus" HorizontalAlignment="Left" Margin="150,10,0,0" VerticalAlignment="Top" Width="200"/>
+    </Grid>
+</Window>
